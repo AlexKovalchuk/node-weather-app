@@ -23,7 +23,7 @@ const listNotes = () => {
 const addNote = (title, body) => {
   const notes = loadNotes();
   const duplicateNote = notes.find(note => note.title === title);
-
+  debugger;
   if(!duplicateNote) {
     notes.push({title: title, body: body});
     saveNotes(notes);
