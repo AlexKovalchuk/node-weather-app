@@ -9,12 +9,11 @@ const geocode = (address, callback) => {
     } else if(!features || !features.length){
       callback('No data found')
     } else {
-      const mapData = features[0];
-      console.log('mapData', mapData);
+      const {center, matching_text} = features[0];
       callback(null, {
-        latitude: mapData.center[0],
-        longitude: mapData.center[1],
-        location: mapData.matching_text,
+        latitude: center[0],
+        longitude: center[1],
+        location: matching_text,
       });
     }
 
@@ -22,8 +21,10 @@ const geocode = (address, callback) => {
 };
 
 const forecast = (lat, lng, callback) => {
-  const urlWeater = `https://api.darksky.net/forecast/80efff1043bfbd6f637edee42d93315e/${lat},${lng}?units=si`;
-request({url: urlWeater, json: true}, (error, response) => {
+  console.log('lat:', lat);
+  console.log('lng:', lng);
+  const urlWeather = `https://api.darksky.net/forecast/80efff1043bfbd6f637edee42d93315e/${lat},${lng}?units=si`;
+request({url: urlWeather, json: true}, (error, response) => {
   if(error) {
     response(`Error unable connect: ${error}`)
   } else if(response.body.error) {
