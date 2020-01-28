@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd0f6ca5-af35-4bbb-8569-75b5f4eedfa8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/web-server/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/src/utils/forecast.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/src/utils/forecast.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-server/templates/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/web-server/templates/views/index.hbs" afterDir="false" />
-    </list>
+    <list default="true" id="dd0f6ca5-af35-4bbb-8569-75b5f4eedfa8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -523,7 +519,7 @@
       <workItem from="1579859743461" duration="2221000" />
       <workItem from="1580125205432" duration="5883000" />
       <workItem from="1580153249491" duration="246000" />
-      <workItem from="1580195118076" duration="889000" />
+      <workItem from="1580195118076" duration="1080000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1578505880534</created>
@@ -592,11 +588,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66000000" />
+    <option name="totallyTimeSpent" value="66191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13742071" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
