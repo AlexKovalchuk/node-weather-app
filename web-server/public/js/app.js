@@ -1,7 +1,7 @@
 console.log('server side script');
 
 const getWeather = (city) => {
-  return fetch(`http://localhost:3000/weather?address=${city}`)
+  return fetch(`/weather?address=${city}`)
     .then(response => {
       return response.json().then(weather => {
 
